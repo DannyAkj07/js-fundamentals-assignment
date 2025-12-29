@@ -1,14 +1,16 @@
 let evenNumbers = 0;
 let oddNumbers = 0;
 
-for (let i = 1; i <= 20; i++) {
-  if (i % 2 === 0) {
-    console.log(`${i} is even`);
+for (let number = 1; number <= 20; number++) {
+  if (number % 2 === 0) {
+    console.log(`${number} is even`);
     evenNumbers++;
   } else {
-    console.log(`${i} is odd`);
+    console.log(`${number} is odd`);
     oddNumbers++;
   }
 }
 
-console.log(`Summary: Even numbers: ${evenNumbers}. OddNumbers: ${oddNumbers}`);
+console.log(
+  `Summary: Even numbers: ${evenNumbers}. OddNumbers: ${oddNumbers}.`
+);
